@@ -1,0 +1,11 @@
+.DS_Store
+*.egg*/
+dist/
+build/
+venv/
+.vscode/
+.ipynb_checkpoints
+data/
+__pycache__
+.pytest*
+*.ipynb
