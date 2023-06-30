@@ -47,9 +47,16 @@ Install package
     describe(result)
     plot(result)
 ```
+paramètres : 
+- runs : nombre de simulations, plus il est grand et plus le résultat est précis
+- stream_num : le nombre de flux à migrer. L'hypothèse est
+- stream_workload : la charge de travail par défaut d'un flux
+- workload_disturb : la perturbation que peut subir une charge de travail. Les premiers flux sont souvent plus difficiles, les suivants accélèrent
+- people : nombre total de personnes sur le projet 
+- capacity_rate : le ratio de personnes pouvant travailler sur le sujet à plein temps
+
 Outputs : 
 
 avg duration 11,  median duration 11.0,  75pct duration 14,  median stream workload 3.3602366165226454
-
 
 ![output.png](output.png)
