@@ -1,5 +1,6 @@
 # Migration simulator
-A monte carlo based simulation to evaluate an IT migration duration, costs, and impacts
+Un simulateur de migration d'application informatique basé sur une approche monte carlo, 
+qui évalue la durée, le coût et les impacts
 
 ## Simulation
 * On mesure l'expérience sur 36 mois
