@@ -6,6 +6,6 @@ with open('requirements.txt', 'r') as f:
 setup(
     name='mcsim',
     version='1.1.0',
-    install_requires=[],
+    install_requires=req,
     packages=find_packages(exclude='data')
 )
